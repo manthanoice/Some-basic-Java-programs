@@ -10,7 +10,7 @@ package com.company;
 import java.util.Scanner;
 
 public class EvenOrOdd {
-    public static void main (String args[]){
+    public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number you want to check whether it is odd or even: ");
         int n = sc.nextInt();
