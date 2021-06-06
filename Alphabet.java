@@ -7,7 +7,7 @@ package com.company;
 import java.util.Scanner;
 
 public class Alphabet {
-    public static void main (String args[]){
+    public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the character you want to check whether it is vowel or consonant: ");
         char x = sc.next().charAt(0);
