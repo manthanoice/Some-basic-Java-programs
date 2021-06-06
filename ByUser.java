@@ -10,5 +10,6 @@ public class ByUser {
         System.out.println("Enter the number you want to enter: ");
         int x = sc.nextInt(); //To read the input entered by user
         System.out.println("The number you have entered is: "+x);
+        
     }
 }
