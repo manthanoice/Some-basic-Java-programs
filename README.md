@@ -5,7 +5,7 @@ Mostly in this I will try to do programs from https://www.programiz.com/java-pro
 
 Here is the list of how you should look at programs in order. Although I have also added text file
 
-1 - ByUser.java
+1 - [ByUser.java](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/ByUser.java)
 2 - Sum.java
 3 - FloatMultiply.java
 4 - ASCII.java
