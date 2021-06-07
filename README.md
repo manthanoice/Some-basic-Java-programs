@@ -20,3 +20,11 @@ Here is the list of how you should look at programs in order as well.
 7 - [EvenOrOdd.java](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/EvenOrOdd.java)
 
 8 - [Alphabet.java](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Alphabet.java)
+
+9 - [Among3.java](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Among3.java)
+
+10 - [Quadratic.java](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Quadratic.java)
+
+11 - [Frequency.java](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Frequency.java)
+
+12 - [WhiteSpace.java](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/WhiteSpace.java)
