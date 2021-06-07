@@ -1,0 +1,12 @@
+1)ByUser.java
+2)Sum.java
+3)FloatMultiply.java
+4)ASCII.java
+5)Division.java
+6)Swap.java
+7)EvenOrOdd.java
+8)Alphabet.java
+9)Among3.java
+10)Quadratic.java
+11)Frequency.java
+12)WhiteSpace.java
