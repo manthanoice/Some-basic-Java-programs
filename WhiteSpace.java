@@ -1,5 +1,5 @@
 /*
-    Here I have used replaceAll method and it's syntax is like: replaceAll(String regex, String replacement)
+    Here I have used replaceAll function and it's syntax is like: replaceAll(String regex, String replacement)
 
     Where regex = thing you want to replace (Here \\s means whitespace to replace with..)
 
