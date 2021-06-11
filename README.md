@@ -35,11 +35,11 @@ Here is the list of how you should look at programs in order and I have added a 
 
 ### 1. Character To String
  
-   - [To convert Character to String using Character.toString(varchar) mathod](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToStr1.java)
+   - [To convert Character to String using Character.toString(varchar) method](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToStr1.java)
  
    - [To convert Character to String using String.valueOf(Char array "c") function.](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToStr2.java)
  
-   - [To convert Character to String using toCharArray() and toString(varchar) mathod](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/StrToChar.java)
+   - [To convert Character to String using toCharArray() and toString(varchar) method](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/StrToChar.java)
 
 ### 2. Character To Integer
   
