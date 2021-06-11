@@ -35,26 +35,26 @@ Here is the list of how you should look at programs in order and I have added a 
 
 ### 1. Character To String
  
-   - [CharToStr1.java](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToStr1.java)
+   - [To convert Character to String using Character.toString(varchar) mathod](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToStr1.java)
  
-   - [CharToStr2.java](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToStr2.java)
+   - [To convert Character to String using String.valueOf(Char array "c") function.](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToStr2.java)
  
    - [StrToChar.java](url)
 
 ### 2. Character To Integer
   
-   - [CharToInt1.java](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToInt1.java)
+   - [To convert Character to Integer using simple Type casting](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToInt1.java)
   
-   - [CharToInt2.java](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToInt2.java)
+   - [To convert Character to Integer using getNumericValue()](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToInt2.java)
   
-   - [CharToInt3.java](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToInt3.java)
+   - [To convert Character to Integer using Integer.parseInt(String.valueOf(varchar))](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToInt3.java)
 
 ### 3. Integer To Character
   
-   - [IntToChar1.java](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/IntToChar1.java)
+   - [To convert Integer to Character using simple Type casting](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/IntToChar1.java)
   
-   - [IntToChar2.java](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/IntToChar2.java)
+   - [To convert Integer to Character using forDigit() method](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/IntToChar2.java)
   
-   - [IntToChar3.java](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/IntToChar3.java)
+   - [To convert Integer to Character using addition method](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/IntToChar3.java)
 
 ### 4. I will continue 4th one later on.. TO BE CONTINUED
