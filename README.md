@@ -30,3 +30,31 @@ Here is the list of how you should look at programs in order and I have added a 
 1. [Frequency of word in string](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Frequency.java)
 
 1. [Removing white space from entered string](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/WhiteSpace.java)
+
+- ## Type Casting
+
+### 1. Character To String
+ 
+   - CharToStr1.java
+ 
+   - CharToStr2.java
+ 
+   - StrToChar.java
+
+### 2. Character To Integer
+  
+   - CharToInt1.java
+  
+   - CharToInt2.java
+  
+   - CharToInt3.java
+
+### 3. Integer To Character
+  
+   - IntToChar1.java
+  
+   - IntToChar2.java
+  
+   - IntToChar3.java
+
+### 4. I will continue 4th one later on.. TO BE CONTINUED
