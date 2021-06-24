@@ -30,31 +30,3 @@ Here is the list of how you should look at programs in order and I have added a 
 1. [Frequency of word in string](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Frequency.java)
 
 1. [Removing white space from entered string](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/WhiteSpace.java)
-
-- ## Type Casting
-
-### 1. Character To String
- 
-   - [To convert Character to String using Character.toString(varchar) method](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToStr1.java)
- 
-   - [To convert Character to String using String.valueOf(Char array "c") function.](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToStr2.java)
- 
-   - [To convert Character to String using toCharArray() and toString(varchar) method](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/StrToChar.java)
-
-### 2. Character To Integer
-  
-   - [To convert Character to Integer using simple Type casting](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToInt1.java)
-  
-   - [To convert Character to Integer using getNumericValue()](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToInt2.java)
-  
-   - [To convert Character to Integer using Integer.parseInt(String.valueOf(varchar))](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/CharToInt3.java)
-
-### 3. Integer To Character
-  
-   - [To convert Integer to Character using simple Type casting](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/IntToChar1.java)
-  
-   - [To convert Integer to Character using forDigit() method](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/IntToChar2.java)
-  
-   - [To convert Integer to Character using addition method](https://github.com/manthanoice/Some-basic-Java-programs/blob/main/Type%20Casting/IntToChar3.java)
-
-### 4. I will continue 4th one later on.. TO BE CONTINUED
