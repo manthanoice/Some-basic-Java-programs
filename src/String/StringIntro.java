@@ -1,3 +1,5 @@
+//Ignore 16th line, I am just too lazy :D
+
 package String;
 
 import java.util.Scanner;
