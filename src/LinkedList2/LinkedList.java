@@ -73,4 +73,44 @@ public class LinkedList {
         }
         System.out.println(temp.data);
     }
+    public void fromLast(int where){
+        System.out.println("\nFrom last data is: ");
+        Node temp = head;
+        int length = 0;
+        while (temp!=null){
+            length++;
+            temp = temp.next;
+        }
+        if(length==0)
+            return;
+        temp = head;
+        for(int i=0; i<length-where-1; i++)
+            temp = temp.next;
+        System.out.println(temp.data);
+    }
+    public void middle(){
+        System.out.println("Middle is: ");
+        Node temp = head;
+        int count = 0;
+        while (temp!=null){
+            count++;
+            temp = temp.next;
+        }
+        temp = head; //We have to initialize temp as head to traverse once again using for loop, right
+        for(int i=0; i<count/2; i++){
+            temp = temp.next;
+        }
+        System.out.println(temp.data);
+    }
+    //To count how many times element comes in linked list
+    public void countElement(int element){
+        Node temp = head;
+        int count = 0;
+        while (temp!=null){
+            if(temp.data==element)
+                count++;
+            temp = temp.next;
+        }
+        System.out.println("Count is: "+count);
+    }
 }
