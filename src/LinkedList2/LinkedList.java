@@ -2,56 +2,75 @@ package LinkedList2;
 
 public class LinkedList {
     Node head;
-    static class Node{
-        int data;
-        Node next;
-        Node(int d){
-            data = d;
-            next = null;
-        }
+    public void push(int data){         //23=data, next = null
+        Node node = new Node(data);
+        node.next = head;
+        head = node;
     }
-    public void push(int new_data){
-        Node new_node = new Node(new_data);
-        new_node.next = head;
-        head = new_node;
-    }
-    public void append(int new_data){
-        Node new_node = new Node(new_data);
+    public void append(int data){
+        Node node = new Node(data); //32 --> Head --> First node right?
         if(head==null)
-            head = new Node(new_data);
-        new_node.next = null;
-        Node n = head;//To travel the whole node and when it'll find the last node and ofc it's address will be null so it'll put new node n at the end
-        while (n.next!=null)
-            n=n.next;
-        n.next = new_node;
+            head = node;
+        Node temp = head;
+        while (temp.next!=null)
+            temp = temp.next; //null--> Last element mil gaya theek hai?
+        temp.next = node; //We will change next of temp (temp=last node)
     }
-    public void insertAt(int index, int new_data){
+    public void indexing(int index, int data){
+        Node node = new Node(data);
         if(index==0)
-            push(new_data);
-        Node new_node = new Node(new_data);
-        new_node.next = null;
-        Node n = head;
-        for(int i=0; i<index-1; i++){
-            n = n.next;
-        }
-        new_node.next = n.next;
-        n.next = new_node;
+            push(data);
+        Node temp = head;
+        for(int i=0; i<index-1; i++)   //--> index-1 because that's how we will find location of index before
+            temp = temp.next;
+        node.next = temp.next;
+        temp.next = node;
     }
-    public void printTheList() {
-        Node n = head;
-        while (n != null) {
-            System.out.print(n.data + " ");
-            n = n.next;
+    public void counting(){
+        int count = 0;
+        Node temp = head;
+        while (temp!=null){
+            temp = temp.next;
+            count++;
+        }
+        System.out.println("count is: "+count);
+    }
+    public void printing(){
+        Node temp = head;
+        System.out.println("Data is: ");
+        while (temp!=null){
+            System.out.print(temp.data+" ");
+            temp = temp.next;
         }
     }
-    public static void main(String[] args) {
-        LinkedList l = new LinkedList();
-        l.head = new Node(4);
-        l.head.next = new Node(5);
-        l.head.next.next = new Node(7);
-        l.push(4);
-        l.append(99);
-        l.insertAt(2,69);
-        l.printTheList();
+    public void deleting(int index){
+        Node temp = head;
+        if(head==null)
+            return;
+        if(index==0)
+            head = temp.next;
+        for(int i=0; i<index-1; i++)
+            temp = temp.next;
+        temp.next = temp.next.next;
+    }
+    public void deleteList(){
+        head = null;
+    }
+    public boolean search(int x){
+        Node temp = head;
+        while (temp!=null){
+            if(temp.data==x)
+                return true;
+            temp=temp.next;
+        }
+        return false;
+    }
+    public void getData(int index){
+        System.out.println("At index n is: ");
+        Node temp = head;
+        for(int i=0; i<index; i++){
+            temp = temp.next;
+        }
+        System.out.println(temp.data);
     }
 }
