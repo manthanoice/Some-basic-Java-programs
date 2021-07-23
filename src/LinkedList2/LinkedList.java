@@ -1,5 +1,4 @@
 package LinkedList2;
-
 public class LinkedList {
     Node head;
     public void push(int data){         //23=data, next = null
@@ -112,5 +111,33 @@ public class LinkedList {
             temp = temp.next;
         }
         System.out.println("Count is: "+count);
+    }
+    Node reverseList(Node head){
+        Node prev = null;
+        while (head!=null){
+            Node next_node = head.next;
+            head.next = prev;
+            prev = head;
+            head = next_node;
+        }
+        return prev;
+    }
+    boolean isPalindrome(Node head)
+    {
+        Node fast = head;
+        Node slow = head;
+        while(fast!=null && fast.next!=null){
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        slow = reverseList(slow);
+        fast = head;
+        while(slow!=null){
+            if(slow.data!=fast.data)
+                return false;
+            slow = slow.next;
+            fast = fast.next;
+        }
+        return true;
     }
 }
