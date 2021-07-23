@@ -96,6 +96,8 @@ public class LinkedList {
             temp = temp.next;
         }
         temp = head; //We have to initialize temp as head to traverse once again using for loop, right
+        if(temp==null)
+            return;
         for(int i=0; i<count/2; i++){
             temp = temp.next;
         }
