@@ -29,5 +29,6 @@ public class Swap {
         System.out.println("--------AFTER SWAP OF NUMBERS--------");
         System.out.println("The first number is: "+x);
         System.out.println("The second number is: "+y);
+        //Another way
     }
 }
